@@ -60,6 +60,7 @@
             this.btnStat.TabIndex = 1;
             this.btnStat.Text = "Statisztika";
             this.btnStat.UseVisualStyleBackColor = false;
+            this.btnStat.Click += new System.EventHandler(this.btnStat_Click);
             // 
             // btnReport
             // 

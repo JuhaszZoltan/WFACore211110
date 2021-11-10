@@ -12,8 +12,9 @@ namespace WFACore211110
         }
         private void btnTermeles_Click(object sender, EventArgs e)
             => new FrmTermeles(ConnectionString).ShowDialog();
+        private void btnStat_Click(object sender, EventArgs e)
+            => new FrmStatisztika(ConnectionString).ShowDialog();
         private void BtnExit_Click(object sender, EventArgs e)
             => Application.Exit();
-
     }
 }
